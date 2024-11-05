@@ -3,7 +3,7 @@ import pandas as pd
 
 url = "https://jhhqwn3twg.execute-api.us-east-1.amazonaws.com/prod/groups"
 
-headers = {"Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvcmdlLmFyYXlhLnZlcmdhcmFAZ21haWwuY29tIiwiaWF0IjoxNzMwNjc3Njk4LCJleHAiOjE3MzA2ODEyOTh9.S6R8aVoSCH1VmF9VQes1zhaER9hQ0_D9XeiSoQ51Jqc"}
+headers = {"Authorization": "Bearer "}
 
 response = requests.get(url, headers=headers)
 
