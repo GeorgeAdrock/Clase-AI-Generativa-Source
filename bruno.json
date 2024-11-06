@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Clase AI Uc",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

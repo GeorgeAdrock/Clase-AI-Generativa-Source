@@ -1,0 +1,22 @@
+meta {
+  name: Unirse a Grupo
+  type: http
+  seq: 8
+}
+
+post {
+  url: https://jhhqwn3twg.execute-api.us-east-1.amazonaws.com/prod/groups/01JBZ7JMMNWR1XAA2PKQH9P1ST/join
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvcmdlLmFyYXlhLnZlcmdhcmFAZ21haWwuY29tIiwiaWF0IjoxNzMwODQ2MzYyLCJleHAiOjE3MzA4NDk5NjJ9.MM4me1L3Bnl2Vpns6WzqFsP7bu5SsIQF35smmbVRom0
+}
+
+body:json {
+  {  
+    "name":"Jorge Araya Vergara",
+    "githubUsername":"GeorgeAdrock"
+  }
+}
